@@ -1,0 +1,74 @@
+header{
+    position: relative;
+    display: block;
+    width:100%;
+    background: black;
+    color: white;
+    height: 90px;
+
+    }
+
+nav{
+    position: absolute;
+    left:15px;
+    
+   
+}
+nav ul{
+        list-style-type: none;     
+}
+
+nav ul li{
+    padding-top:25px;
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+nav ul li a{
+    font-size: 25px;
+    line-height: normal;
+    color: white; 
+    
+}
+nav ul li a:hover{
+    text-decoration: none;
+    color: red;
+  
+ 
+}
+#messages{
+    height:300px;
+}
+.title{
+    text-align: center;
+    margin-right:3%;
+    padding-top: 5%;
+}
+
+#loginFields{
+    position: relative;
+    padding-left: 43%;
+    
+}
+#loginBtn:hover{
+    position: relative;
+    box-shadow:10px,10px;
+
+}
+.fields:hover{
+    background: lightblue;
+
+}
+.fields{
+    padding-top:5px;
+    
+}
+#loginBtn{
+    padding-right: 150px;
+    margin-top: 2px;
+}
+#stuff2{
+   margin-left: 15%;
+}
+  
+
